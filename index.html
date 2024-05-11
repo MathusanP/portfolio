@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width", inital-scale="1.0">
 </head>
 <body>
     <div class="animated-background">
@@ -89,7 +92,7 @@
               <div class="tag"><span>#</span> ES6 </div>
               <div class="tag"><span>#</span> Blender </div>
               <div class="tag"><span>#</span> Unity </div>
-              <div class="tag"><span>#</span> Premiere pro</div>
+              <div class="tag"><span>#</s pan> Premiere pro</div>
             </div>
           </div>
           <div class="loop-slider" style="--duration:15936ms; --direction:normal;">
@@ -98,7 +101,7 @@
               <div class="tag"><span>#</span> React</div>
               <div class="tag"><span>#</span> C</div>
               <div class="tag"><span>#</span> Godot</div>
-              <div class="tag"><span>#</span> GdScript</div>
+              <div class="tag"><span>#</span> GdScript</div> 
               <!-- duplicated content -->
               <div class="tag"><span>#</span> Node.js</div>
               <div class="tag"><span>#</span> React</div>
@@ -107,34 +110,190 @@
               <div class="tag"><span>#</span> GdScript</div>
             </div>
           </div>
-          <div class="fade"></div>
         </div>
       </div>
-      <section class="hidden"> 
-        <h1> Revise psychology</h1>
-        <p> An AI powered revision platform for A level psychology.</p>
-      </section>
-
-      <section class="hidden">
-        <h2> kekbot </h2>
-        <p> Your Multi-purpose discord bot that enhances the functionality of your server! </p>
-        <div class="swiper-container">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="images/discord.png" alt="Image 1"></div>
-              <div class="swiper-slide"><img src="images/aboutkekbot.png" alt="Image 2"></div>
-            </div>
-            <!-- Add pagination if needed -->
-            <div class="swiper-pagination"></div>
-          </div>
-        </section>
-
     </section>
-    
+    <section id="about" class="hidden">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./images/profile.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="images/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <p>Experience</p>
+              <p>4+ years <br/>Backend Development with Node.js</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <p>Education</p>
+              <p>A Level Computer Science<br/>GCSE Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section id="experience" class="hidden">
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Casual worker at Imperial College London Dyson School Of Design Engineering</h2>
+            <div class="article-container">
+              <p> In regards to Imperial's Summer Camp Program for the School of Design Engineering, I was invited to help out with the Practical aspect of the session, which involved Programming and Connecting Lego bricks from the Mindstorm and WeDo kits, I helped to setup the kits and offer guidance and challenged the thinking of the students if they struggled. </p>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Student intern at Visonpath</h2>
+            <div class="article-container">
+              <p> After being accepted into The Workshop and Visionpath's AIM programme, I've been under the care of many experienced and knowledgeable Software Engineers who have been helping me understand the process of creating and hosting a Software solution from the design process, to deployment. Thanks to this programme, I was able to understand different workflows and frameworks, be able to work with pipelines and expand my network.</p>
+      </div>
       
-      <section class="hidden">
-        <h2> Interior Desiogn </h2>
-        <p> Textured and Rendered in blender. </p>
+    </section>
+    <section id="projects" class="hidden">
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/reckoning.png"
+                alt="The reckoning"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">The reckoning</h2>
+            <p> Be careful, not everything is what it seems like, what seems like a theme park may have some horrors lurking behind...</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick=location.href='https://youtu.be/VC5FVFly81s'
+              >
+                Youtube
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/rs.png"
+                alt="Revise Psychology"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Revise Psychology</h2>
+            <p> An Ai driven A level psychology revision platform. </p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/bagelwastaken/revise-psychology'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://revisepsychology.netlify.app'"
+              >
+                Website
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="images/tr.png"
+                alt="The reckoning"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">The Reckoning - Poster Advert</h2>
+            <p> Poster designs for the horrors to come...</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://padlet.com/bagelwastaken/portfolio-padlet-oiwutbhhc7w19g8t'"
+              >
+                Padlet
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       </section>
+
+      <section id="projects" class="hidden">
+        <h1 class="title">The explorer's den</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="images/kitchen.png"
+                  alt="kitchen"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Interior Planning</h2>
+              <p> Interior planning that creates something from nothing.</p>
+              <div class="btn-container">
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="images/planning.png"
+                  alt="The explorer's den."
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">The explorer's den.</h2>
+              <p> An initative to increase communal and social spaces for young children in stratford. </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/bagelwastaken/revise-psychology'"
+                >
+                  Sketchfab
+                </button>
+
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="images/teachingroom.png"
+                  alt="Education spaces"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Education spaces</h2>
+              <p> Brining potential to reality. </p>
+              <div class="btn-container">
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+      <p>Copyright &#169; 2024 Mathusan Paramanithy. All Rights Reserved.</p>
 </body>
 
 </html>
